@@ -1,0 +1,53 @@
+body{ 
+    background-image: url("Images/Gradient.gif");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+
+}
+
+#L{
+
+    background-image: url("Images/Canteen5.png");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+    display: contents;
+    background-position-y: 20px;
+    height: 1000px;
+
+}
+#op{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center;
+    padding-top: 250px;
+    width: 500px; */
+}
+ 
+
+h1{
+    background-color: rgb(157, 247, 247);
+    color: rgb(49, 97, 1);
+    text-align: center;
+}
+
+.loader {
+
+    animation: 2s linear infinite;
+    text-align: center;
+    
+  }
+
+.login{
+    background-image: url("Images/Canteen1.jpg");
+}
+#L{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
