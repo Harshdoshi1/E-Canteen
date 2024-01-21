@@ -2,7 +2,7 @@ body{
     background-image: url("Images/Gradient.gif");
     background-repeat: no-repeat;
     background-position: fixed;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-attachment: fixed;
     background-position: left;
@@ -31,23 +31,86 @@ body{
  
 
 h1{
-    background-color: rgb(157, 247, 247);
-    color: rgb(49, 97, 1);
+    font-size: 40px;
+    height: 60px;
+    background-color: rgb(200, 147, 196);
+    padding-top: 10px;
+    color: rgb(207, 233, 181);
     text-align: center;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .loader {
-
     animation: 2s linear infinite;
-    text-align: center;
-    
-  }
+    display: grid;
+
+}
 
 .login{
+    align-items: center;
     background-image: url("Images/Canteen1.jpg");
 }
 #L{
     padding: 100px;
     display: flex;
     justify-content: center;
+}
+
+.loginIDpass{
+    line-height: 20px;
+    width: 200px;
+    margin: 10px;
+    padding:  5px;
+    box-shadow:  0 2px;
+    border-radius: 5px; 
+    font-size:10px;
+
+    /* text-align: center; */
+	font-size: 12px;
+				
+				border: 3px solid #9b59b6;
+
+				
+				-webkit-transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+				-moz-transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+				-ms-transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+				-o-transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+				transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    
+}
+
+.loginBTN{
+    height:30px;
+    width: 90px;
+    margin: 30px;
+    box-shadow:  0 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px; 
+    border-color: rebeccapurple;
+    background-color: rgba(0, 191, 255, 0.735);
+    font-size:18px;
+}
+.loginBTN:hover{
+    background-color: aqua;
+}
+.loginBTN:active{
+    box-shadow: 0 1px;
+    transform: translateY(4px);
+}
+#forgetORsignUP{
+    font-size: 10px;
+    display: inline-block;
+
+}
+#forget{
+    margin-left: 10px;
+}
+#signUpClick{
+    display: inline-block;
+    margin-left: 130px;
+ 
+}
+#eye{
+    display: inline-block;
 }

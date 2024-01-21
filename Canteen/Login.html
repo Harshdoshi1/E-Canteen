@@ -10,18 +10,25 @@
     <h1>E-CANTEEN</h1>
     <div class="Login" id="L" >
         <div class="loader" >
-        <img style="height: 50px; width: 50px;" src="Images/TheBurger.gif "</div>
+        <!-- <img style="height: 50px; width: 50px;" src="Images/TheBurger.gif "> -->
+        </div>
 
-        <form method="post" style="text-align: center;" >
+        <form method="post">
         <!-- <input type="text" name="txtUsername" placeholder="Enter Your Name" value="Harsh"/> -->
-        <input type="text" name="txtUsername" style="border-radius: 5px; font-size:20px" placeholder="Enter Name" value="@marwadiuniversiry.ac.in"/><br>
-        <input type="password" name="txtPwd" style="border-radius: 5px; font-size:20px" placeholder="Password"/><br>
-        <input type="submit" name="btnSubmit" style="border-radius: 5px; font-size:20px" value="Login" size="10"/>
-        <a href="SignUp.html">
-        <input type="button" name="btnButton" style="border-radius: 5px; font-size:20px" value="Sign Up"/>
-        </a>
+        <input type="text" name="txtUsername" class="loginIDpass"  placeholder="Enter E-mail ID" value=""/>@marwadiuniversiry.ac.in</br>
+        <input type="password" name="txtPwd" class="loginIDpass" placeholder="Password"/>
+        <input type="checkbox" name="Pwdchk" id="checkPass" onclick="showPass()"> <img id="eye" src="Images/eyeclose.png" height="10px" width="10px"> </br> 
+        <div id="forgetORsignUP">
+            <div id="forget">Forgot Password?</div>
+            <div id="signUpClick">New User..? <a href="SignUp.html" target="_blank">Sign Up
+                <!-- </a>input type="button" name="btnButton" style="border-radius: 5px; font-size:20px" value="Sign Up"/> -->
+                </a>
+            </div>
+        </div></br>
+        <input type="submit" name="btnSubmit" class="loginBTN" value="Login" /> 
+        </form>
         
-    </form>
+
     </div>
 
 
